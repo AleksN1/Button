@@ -55,6 +55,8 @@ body{
 
 	border-radius: 10px 10px 10px 10px;
 	text-decoration: none;
+	
+	color: #fff;
 }
 
 .wave-btn:hover {
@@ -69,6 +71,7 @@ body{
 	-webkit-box-shadow: 0 0 40px rgba(73, 115, 255, 10);
 	box-shadow: 0 0 40px rgba(73, 115, 255, 10);
 
+	color: #4973ff;
 }
 .wave-btn:hover .wave-btn__waves{
 	top: -50px;
@@ -76,16 +79,12 @@ body{
 
 .wave-btn__text {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	color: #fff;
+	
 	text-transform: uppercase;
 	letter-spacing: 8px;
 	position: relative;
 	z-index: 1;
 	font-weight: 900;
-}
-
-.wave-btn__text:hover {
-	color: #4973ff;
 }
 
 .wave-btn__waves {
